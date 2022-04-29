@@ -61,9 +61,11 @@ sportCar1.transsmition = .auto
 var truck1 = Truck(brand: "DAF", model: "Interseprot", cacargoCapacity: .full, transsmition: .manual)
 var truck2 = Truck(brand: "Man", model: "3000", cacargoCapacity: .semiFull, transsmition: .auto)
 
-print("Цена за трансмиссию ",Transsmition.auto,"+", sportCar1.addPrice(transsmition: .auto),)
+print("Цена за трансмиссию ",Transsmition.auto,"+", sportCar1.addPrice(transsmition: .auto))
 print("Цена за трансмиссию ",Transsmition.manual,"-", sportCar1.addPrice(transsmition: .manual))
 
 print("Цена за трансмиссию ",Transsmition.auto,"+", truck1.addPrice(transsmition: .auto))
 print("Цена за трансмиссию ",Transsmition.manual,"+", truck2.addPrice(transsmition: .manual))
 
+print(sportCar1.brand)
+print(sportCar2.transsmition)
